@@ -135,7 +135,7 @@ const battleship = () => {
     if(target.shipCount === 0){
       winner = attacker.name;
       console.log(`${winner} wins!`);
-      alert(`${winner} Wins!! With a final score of ${target.shipCount} to ${attacker.shipCount}`);
+      alert(`${winner} Wins!! With a final score of ${attacker.shipCount} to ${target.shipCount}`);
       return winner;
       
     } else if ( attacker == player1){
